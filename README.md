@@ -5,7 +5,7 @@ Bài tập lớn của lớp lập trình nâng cao INT2215_1.
 Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát triển trên Visual Studio Code .
 ```
 ## Hướng dẫn cài đặt
-1. Cài đặt:
+### 1) Cài đặt:
 - Chương trình sử dụng file project của VS Code.
 - Hãy tải xuống đầy đủ [VS Code](https://code.visualstudio.com/) và các thư viện 
 [SDL2](https://www.libsdl.org/download-2.0.php) và tải (SDL2-devel-2.0.22-mingw.tar.gz),
@@ -27,7 +27,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
     all:
 	g++	-I<ROOTDIR>/include	-L<ROOTDIR>/lib	-o	[File cần tạo] [Các file .cpp của chương trình] -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
 			
-2. Chạy chương trình:
+### 2) Chạy chương trình:
 - Mở 1 Terminal mới.
 - Nhập lệnh (mingw32-make).
 - Nhập lệnh [File cần tạo].exe xong bấm Tab
