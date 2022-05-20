@@ -30,7 +30,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 2. Chạy chương trình:
 - Mở 1 Terminal mới.
 - Nhập lệnh (mingw32-make).
-- Nhập lệnh (.\[File cần tạo].exe)
+- Nhập lệnh [File cần tạo].exe xong bấm Tab
 
 ## Mô tả chung về trò chơi, các ý tưởng chính
 ### a) Mô tả chung về trò chơi:
