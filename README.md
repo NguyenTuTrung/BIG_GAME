@@ -22,7 +22,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 	+ Bạn có thể copy các file .dll từ các file tải [SDL2],[SDL2_image],[SDL2_ttf],[SDL2_mixer] vào file project.
     + Hoặc bạn có thể dùng các file .dll như trong Github: (https://github.com/NguyenTuTrung/Big_Game).
 	+ Mở file project của VS Code (Folder chứa code của Big_Game) sao đó có thể đưa link include và lib của các file tải [SDL2],[SDL2_image],[SDL2_ttf],[SDL2_mixer] vào. ( Có thể đưa vào 1 folder (src) trong như trong Github : (https://github.com/NguyenTuTrung/Big_Game) ).
-    + Bạn có thể tải Big_Game về và sử dụng thư mục res mak đã được tổng hợp đủ.
+    + Bạn có thể tải Big_Game về và sử dụng thư mục src mak đã được tổng hợp đủ.
 	+ Vào trong VS Code tạo Makefile và viết :
     all:
 	g++	-I<ROOTDIR>/include	-L<ROOTDIR>/lib	-o	[File cần tạo] [Các file .cpp của chương trình] -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
