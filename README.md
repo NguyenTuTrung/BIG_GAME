@@ -51,7 +51,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 - Người chơi có thể tiếp tục trò chơi với số điểm đã đạt được với điệu kiện mạng vẫn còn
 - Nếu người chơi không thích thì có thể bắt đầu lại trò chơi với số điểm là 0 với điệu kiện mạng vẫn còn
 - Hiện thị số điểm của người chơi, và số mạng còn lại của người chơi ở góc trái màn hình
-- Video demo [tại đây]()
+- Video demo [tại đây](https://youtu.be/n1DTI7UyE1M)
 ### 4. Các kỹ thuật lập trình được sử dụng trong chương trình
 - Kĩ thuật lập trình đồ họa, âm thanh bằng SDL 
 - Kĩ thuật lập trình hướng đối tượng
