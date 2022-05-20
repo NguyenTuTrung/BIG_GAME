@@ -7,7 +7,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 ## Hướng dẫn cài đặt
 1. Cài đặt:
 - Chương trình sử dụng file project của VS Code.
-- Hày tải xuống đầy đủ [VS Code](https://code.visualstudio.com/) và các thư viện 
+- Hãy tải xuống đầy đủ [VS Code](https://code.visualstudio.com/) và các thư viện 
 [SDL2](https://www.libsdl.org/download-2.0.php) và tải (SDL2-devel-2.0.22-mingw.tar.gz),
 [SDL2_image](https://www.libsdl.org/projects/SDL_image/) và tải (SDL2_image-devel-2.0.5-mingw.tar.gz),
 [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/release/) và tải (SDL2_ttf-devel-2.0.18-mingw.tar.gz)
