@@ -33,31 +33,31 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 - Nhập lệnh [File cần tạo].exe xong bấm Tab
 
 ## Mô tả chung về trò chơi, các ý tưởng chính
-### a) Mô tả chung về trò chơi:
+### 1) Mô tả chung về trò chơi:
 - Tên trò chơi: Flappy_Dog
 
 - Cách chơi:
    + Nhấn nút SPACE hoặc nhấp chuột trái để khéo léo di chuyển đối tượng(Con chó) qua các cột.
    + Trong quá trình chơi có người chơi có thể tạm dừng trò chơi bằng nút Esc hoặc bằng cách nhấp chuột phải.
    + Trò chơi kết thúc khi người chơi để đối tượng(Con chó) cva chạm vào cột, đi lên vợt khung hoặc chạm vào mặt đất.
-### b) Các ý tưởng chính
+### 2) Các ý tưởng chính
  - Tốc độ xuất hiện của cột sẽ tăng dần theo khung điểm người chơi đạt được 
  - Người chơi có 3 mạng để sử dụng trong lượt chơi của mình
  - Hệ thống âm thanh
  - Hệ thống đồ họa bắt mắt
-### 3. Các chức năng được cài đặt trong trò chơi:
+### 3) Các chức năng được cài đặt trong trò chơi:
 - Hiệu ứng âm thanh khi: click chuột, va chạm, thua cuộc, ...
 - Chức năng tắt(mở) âm thanh trong bảng khi tạm dừng trong quá trình chơi
 - Người chơi có thể tiếp tục trò chơi với số điểm đã đạt được với điệu kiện mạng vẫn còn
 - Nếu người chơi không thích thì có thể bắt đầu lại trò chơi với số điểm là 0 với điệu kiện mạng vẫn còn
 - Hiện thị số điểm của người chơi, và số mạng còn lại của người chơi ở góc trái màn hình
 - Video demo [tại đây](https://youtu.be/n1DTI7UyE1M)
-### 4. Các kỹ thuật lập trình được sử dụng trong chương trình
+### 4) Các kỹ thuật lập trình được sử dụng trong chương trình
 - Kĩ thuật lập trình đồ họa, âm thanh bằng SDL 
 - Kĩ thuật lập trình hướng đối tượng
 - Kĩ thuật tách file 
 - Các kĩ thuật  khác: Mảng, con trỏ, cấu trúc, lớp, cách tạo số ngẫu nhiên(vị trí ngẫu nhiên), vòng lặp các trạng thái của game, ....
-### 5. Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
+### 5) Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
 a) Hướng phát triển:
 - Phát triển thêm các tính năng:
   + Tạo thêm nhiều chế độ chơi như : 2 players, vừa di chuyển vừa ăn các đối tượng sự kiện khác,.....
