@@ -32,22 +32,44 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 - Nhập lệnh mingw32-make.
 - Nhập lệnh ./[File cần tạo].exe
 
-## Các chức năng
-1. Màn hình Chào: 
-- Bắt đầu Game bằng cách nhấp chuột ( hoặc nút SPACE ) để bắt đầu trò chơi.
-- Nhấn nút tắt ở góc trên cửa sổ để tắt chương trình.
-2. Màn hình chơi:
-- Các đối tượng:
-	+ Có hình đối tượng (con chó) để người chơi điều khiển.
-	+ Các cột di chuyển đến để làm chướng ngại vật .
-- Số điểm đang có và số mạng ở góc trên phía trái màn hình.
-- Tốc độ sẽ tằng dần theo khung điểm bạn đạt được.
-3. Màn hình kết thúc game:
-- Có thể thực hiện 2 thao tác:
-	+ Ấn nút Replay để chơi lại ván mới với số điểm bằng 0 với điều kiện số mạng vẫn còn.
-	+ Ấn nút Continue để chơi lại ván mới với số điểm đã đạt được điều kiện số mạng vẫn còn. 
-## Hướng dẫn chơi
-- Các bạn điều khiển đối tượng (con chó) tránh các cột, click chuột(hoặc SPACE) để đưa đối tượng (con chó) đi lên, với mỗi lần vượt qua cột bạn sẽ được thêm một điểm.  
+## Mô tả chung về trò chơi, các ý tưởng chính
+### a) Mô tả chung về trò chơi:
+- Tên trò chơi: Flappy_Dog
+
+- Cách chơi:
+   + Nhấn nút SPACE hoặc nhấp chuột trái để khéo léo di chuyển đối tượng(Con chó) qua các cột.
+   + Trong quá trình chơi có người chơi có thể tạm dừng trò chơi bằng nút Esc hoặc bằng cách nhấp chuột phải.
+   + Trò chơi kết thúc khi người chơi để đối tượng(Con chó) cva chạm vào cột, đi lên vợt khung hoặc chạm vào mặt đất.
+### b) Các ý tưởng chính
+ - Tốc độ xuất hiện của cột sẽ tăng dần theo khung điểm người chơi đạt được 
+ - Người chơi có 3 mạng để sử dụng trong lượt chơi của mình
+ - Hệ thống âm thanh
+ - Hệ thống đồ họa bắt mắt
+### 3. Các chức năng được cài đặt trong trò chơi:
+- Hiệu ứng âm thanh khi: click chuột, va chạm, thua cuộc, ...
+- Chức năng tắt(mở) âm thanh trong bảng khi tạm dừng trong quá trình chơi
+- Người chơi có thể tiếp tục trò chơi với số điểm đã đạt được với điệu kiện mạng vẫn còn
+- Nếu người chơi không thích thì có thể bắt đầu lại trò chơi với số điểm là 0 với điệu kiện mạng vẫn còn
+- Hiện thị số điểm của người chơi, và số mạng còn lại của người chơi ở góc trái màn hình
+- Video demo [tại đây]()
+### 4. Các kỹ thuật lập trình được sử dụng trong chương trình
+- Kĩ thuật lập trình đồ họa, âm thanh bằng SDL 
+- Kĩ thuật lập trình hướng đối tượng
+- Kĩ thuật tách file 
+- Các kĩ thuật  khác: Mảng, con trỏ, cấu trúc, lớp, cách tạo số ngẫu nhiên(vị trí ngẫu nhiên), vòng lặp các trạng thái của game, ....
+### 5. Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
+a) Hướng phát triển:
+- Phát triển thêm các tính năng:
+  + Tạo thêm nhiều chế độ chơi như : 2 players, vừa di chuyển vừa ăn các đối tượng sự kiện khác,.....
+  + Tạo bản thành tích qua các lần chơi(VD: Thành tích 5 lần chơi thắng nhanh nhất, kèm theo tên người chơi)
+
+b) Điều tâm đắc: 
+- Do là Game đầu tay nên vẫn còn nhiều sai sót, code chưa được tối ưu nhất, nhưng qua bài tập này nâng cao trình độ code rất nhiều, qua chương trình rút ra được nhiều kinh nghiệm trong cách làm bài tập lớn để các chương trình sau được hoàn thiện tốt hơn
+- Thông qua chương trình học thêm được các kiến thức sau:
+  + Biết được tiến trình tạo ra một game và cách vận hành của một game
+  + Biết sử dụng SDL 2.0 để tạo một chương trình đồ họa có đồ họa và âm thanh
+  + Củng cố kiến thức sử dụng ngôn ngữ lập trình C++
+
 ## Nguồn tham khảo và tài nguyên game
 - Chương trình được xây dựng trên  [VS Code](https://code.visualstudio.com/). 
 - Các thư viện [SDL](https://www.libsdl.org/).
@@ -55,4 +77,3 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 - Âm thanh sử dụng trong game được tải xuống từ [Mixkit](https://mixkit.co/free-sound-effects/game/). 
 - https://lazyfoo.net/tutorials/SDL/
 - https://phattrienphanmem123az.com/
-- Video demo: 
