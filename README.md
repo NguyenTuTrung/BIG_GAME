@@ -77,3 +77,4 @@ b) Điều tâm đắc:
 - Âm thanh sử dụng trong game được tải xuống từ [Mixkit](https://mixkit.co/free-sound-effects/game/). 
 - https://lazyfoo.net/tutorials/SDL/
 - https://phattrienphanmem123az.com/
+- https://wiki.libsdl.org/
