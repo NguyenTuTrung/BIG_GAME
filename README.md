@@ -31,6 +31,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 - Mở 1 Terminal mới.
 - Nhập lệnh (mingw32-make).
 - Nhập lệnh [File cần tạo].exe xong bấm Tab
+- Hoặc bạn có thể download zip từ Github (https://github.com/NguyenTuTrung/Big_Game) và bấm đúp vào file.exe
 
 ## Mô tả chung về trò chơi, các ý tưởng chính
 ### 1) Mô tả chung về trò chơi:
