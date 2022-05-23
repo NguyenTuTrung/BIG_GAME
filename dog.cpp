@@ -38,22 +38,7 @@ void dog::render()
     Render(posDog.x, posDog.y, angle);
 }
 
-void dog::fall()
-{
-    if (die && posDog.y < SCREEN_HEIGHT - LAND_HEIGHT - SHIBA_HEIGHT - 5)
-    {
-        if (time == 0)
-        {
-            x0 = posDog.y;
-            angle = -25;
-        }
-             if (time >= 0)
-        {
-            posDog.y = x0 + time * time * 0.18 - 7.3 * time;
-            time++;
-        }
-    }
-}
+
 
 //***********************************************//
 
