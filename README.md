@@ -62,6 +62,7 @@ a) Hướng phát triển:
 - Phát triển thêm các tính năng:
   + Tạo thêm nhiều chế độ chơi như : 2 players, vừa di chuyển vừa ăn các đối tượng sự kiện khác,.....
   + Tạo bản thành tích qua các lần chơi(VD: Thành tích 5 lần chơi thắng nhanh nhất, kèm theo tên người chơi)
+  + Cho cái cột chuyển động thành nhiều kiểu
 
 b) Điều tâm đắc: 
 - Do là Game đầu tay nên vẫn còn nhiều sai sót, code chưa được tối ưu nhất, nhưng qua bài tập này nâng cao trình độ code rất nhiều, qua chương trình rút ra được nhiều kinh nghiệm trong cách làm bài tập lớn để các chương trình sau được hoàn thiện tốt hơn
