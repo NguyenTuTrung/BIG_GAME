@@ -47,19 +47,12 @@ void dog::fall()
             x0 = posDog.y;
             angle = -25;
         }
-        else if (angle < 70 && time > 30)
-        {
-            angle += 3;
-        }
-
-        if (time >= 0)
+             if (time >= 0)
         {
             posDog.y = x0 + time * time * 0.18 - 7.3 * time;
             time++;
         }
     }
-    else
-        return;
 }
 
 //***********************************************//
@@ -80,7 +73,7 @@ void dog::update(short int pipeWidth, short int pipeHeight)
 
         if (time >= 0)
         {
-            posDog.y = x0 + time * time * 0.18 - 7.3 * time;
+            posDog.y = x0 + time * time * 0.2 - 7.5 * time;
             time++;
         }
 
