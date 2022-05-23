@@ -8,8 +8,8 @@
 
 using namespace std;
 
-const short int FPS = 60;
-const short int frameDelay = 1000 / FPS;
+const short int FPS = 60;      // số khung hình cần render lên trên 1 giây
+const short int frameDelay = 1000 / FPS; //thời gian tính trên lý thuyết để máy tính tính toán và render xong 1 frame
 
 using namespace std;
 
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
     while (!g.isQuit())
     {
-        frameStart = SDL_GetTicks();
+        frameStart = SDL_GetTicks(); // SDL_GetTicks() : chức năng lấy về tổng số miliseconds từ khi SDL được khởi tạo.
 
         if (g.isDie())
         {
