@@ -72,7 +72,6 @@ int main(int argc, char *argv[])
                 if (isMenu)
                 {
                     g.shiba.render();
-                    g.shiba.fall();
                     g.renderGameOver();
                     g.renderMedal();
                     g.renderScoreSmall();
