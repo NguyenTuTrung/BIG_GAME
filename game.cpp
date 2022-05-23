@@ -123,8 +123,8 @@ bool game::initGraphic()
 
 void game::display()
 {
-	SDL_RenderPresent(gRenderer);
-	SDL_RenderClear(gRenderer);
+	SDL_RenderPresent(gRenderer);  // cập nhật màn hình với bất kì kết xuất nào đã được gọi trước đó
+	SDL_RenderClear(gRenderer);   // xóa mục tiêu kết xuất hiện tại với bảng màu
 }
 
 void game::renderScoreSmall()
