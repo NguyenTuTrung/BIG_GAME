@@ -19,8 +19,6 @@ public:
         time = 0;
     }
 
-    void fall();
-
     void update(short int pileWidth, short int pileHeight);
 
 private:
