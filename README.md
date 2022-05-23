@@ -61,6 +61,7 @@ Sử dụng C / C ++, SDL2, SDL_ttf , SDL_image, SDL_mixer thư viện phát tri
 ### 5) Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
 a) Hướng phát triển:
 - Phát triển thêm các tính năng:
+  + Cho chơi lại
   + Tạo thêm nhiều chế độ chơi như : 2 players, vừa di chuyển vừa ăn các đối tượng sự kiện khác,.....
   + Tạo bản thành tích qua các lần chơi(VD: Thành tích 5 lần chơi thắng nhanh nhất, kèm theo tên người chơi)
   + Cho cái cột chuyển động thành nhiều kiểu
