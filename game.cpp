@@ -12,7 +12,7 @@ void game::takeInput()
 		if (event.type == SDL_QUIT)
 		{
 			userInput.Type = input::QUIT;
-			quit = true;
+			quit = false;
 		}
 		else if (event.type == SDL_MOUSEBUTTONDOWN)
 		{
